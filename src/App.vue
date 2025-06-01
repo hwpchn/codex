@@ -4,6 +4,7 @@
       <el-col :span="8">
         <el-card class="box-card">
           <div class="logo">Seaway Logistics</div>
+          <div class="logo">Shipping Logistics</div>
           <el-form :model="form" @submit.prevent="onSubmit" label-position="top">
             <el-form-item label="Email">
               <el-input v-model="form.email" type="email" placeholder="Email" autocomplete="email" />
@@ -44,6 +45,7 @@ function onSubmit() {
   align-items: center;
   justify-content: center;
   background: linear-gradient(to right, #005c97, #363795);
+  background: linear-gradient(to right, #66a6ff, #89f7fe);
 }
 .logo {
   text-align: center;
